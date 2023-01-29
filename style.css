@@ -1,0 +1,451 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+
+/* **** HEADER**** */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 50px 5px 50px;
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: 0px 5px 0px -2px rgba(0,0,0,0.50);
+  -webkit-box-shadow: 0px 5px 11px -2px rgba(0,0,0,0.25);
+  -moz-box-shadow: -2px 5px px -2px rgba(0,0,0,0.50);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: #010101;
+  /* position: fixed; */
+  background-color: #fff;
+  position: absolute;
+  position: relative;
+  transition-duration: 1s;
+
+
+
+}
+
+
+
+.logo-container img {
+  height: 100px;
+  width: 150px;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+
+
+  
+
+
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #010101;
+  
+}
+
+.icons-container a {
+  display: flex;
+
+}
+.fa {
+  padding: 12px;
+  color: #46afea;
+  font-size: 22px;
+
+
+}
+.fa-solid {
+  color: #46afea;
+  font-size: 20px;
+
+}
+
+.logo-container a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+/* HOMEPAGE */
+
+.homepage {
+  /* position: relative; */
+  height: 100vh;
+  background-image: url('images/pexels-mart-production-7256410.jpg');
+  /* position: fixed; */
+  /* position: absolute; */
+  width: 100%;
+  background-size: cover;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  background-position: center;
+  background-position: fixed;
+
+
+
+}
+.home-content {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.home-content h1 {
+  font-size: 1.1em;
+  
+
+}
+
+.shop-now {
+  background-color: #68b4df;
+  color: #fff;
+  padding: 15px 32px;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 50px;
+  border: none;
+  overflow: hiddden;
+  box-shadow: 1px 3px 4px 1px rgba(0,0,0,0.58);
+  -webkit-box-shadow: 1px 3px 4px 1px rgba(0,0,0,0.2);
+  -moz-box-shadow: 1px 3px 4px 1px rgba(0,0,0,0.0);
+  margin-top: 24px;
+  transition-duration: 1s;
+
+}
+.shop-now:hover {
+  background-color: #46afea;
+  transform: scale(1.02);
+  transition: 0.2s;
+}
+.men {
+  padding: 15px 41px 15px 41px;
+}
+
+
+/* *** SHOE SECTION  ** */
+#shoe-section {
+  flex-wrap: wrap;
+  margin-top: 100px;
+  height: 700px;
+  box-sizing: border-box;
+
+}
+
+
+
+.top-container {
+  flex: 1;
+  display: flex;
+  height: 500px;  
+  margin-bottom: 10px;
+  padding: 50px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+  
+}
+
+.top-left {
+  height: 480px;
+  width: 620px;
+  background-image: url('images/lucky-brand-shoes-men-2\ \(2\).jpeg');
+  background-position: center;
+  background-size: cover;
+  background-position: fixed;
+  transition-duration: 1s;
+
+
+
+
+}
+.top-right {
+  height: 480px;
+  width: 620px;
+  margin: 10px;
+  text-align: center;
+  padding: 50px;
+  transition-duration: 1s;
+
+
+}
+
+.top-right h1 {
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+.top-right p {
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+
+
+
+.bottom-container {
+  flex: 1;
+  display: flex;
+  height: 500px;  
+  padding: 50px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.bottom-left {
+  height: 420px;
+  width: 550px;
+  background-image: url('images/men\ topsider.jpg');
+  background-position: center;
+  background-size: cover;
+  background-position: fixed;
+  margin: 10px;
+  position: relative;
+  transition-duration: 1s;
+
+}
+
+.bottom-right {
+  height: 420px;
+  width: 550px;
+  background-image: url('images/womentopsider.jpg');
+  background-position: center;
+  background-size: cover;
+  margin: 10px;
+  background-position: fixed;
+  position: relative;
+  transition-duration: 2s;
+
+
+
+}
+
+.bottom-left:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("images/men\ topsider.jpg");
+  transition: 0.8s;
+
+
+
+
+  
+}
+
+.bottom-right:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("images/womentopsider.jpg");
+  transition: 0.8s;
+
+}
+
+.hidden-text {
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #ffffff;
+  opacity: 0;
+  transition: all 0.5s ease;
+  text-align: center;
+
+}
+
+.bottom-left:hover .hidden-text {
+  bottom: 50%;
+  opacity: 1;
+  
+}
+
+.bottom-right:hover .hidden-text {
+  bottom: 50%;
+  opacity: 1;
+}
+
+.categories {
+  flex: 1;
+  display: flex;
+  height: 300px;  
+  margin-bottom: 10px;
+  padding: 50px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  color: #fff;
+
+
+
+}
+
+#first-box {
+  height:250px;
+  width: 360px;
+  margin: 10px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),url('images/shoekids.jpg');
+  background-position: center;
+  background-size: cover;
+  background-position: fixed;
+  margin: 10px;
+  position: relative;
+  transition-duration: 1s;
+}
+#second-box {
+  height:250px;
+  width: 360px;
+  margin: 10px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),url('images/boots.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-position: fixed;
+  margin: 10px;
+  position: relative;
+  transition-duration: 1s;
+
+
+}
+#third-box {
+  height:250px;
+  width: 360px;
+  margin: 10px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),url('images/safety\ shoes.jpg');nd-position: center;
+  background-size: cover;
+  background-position: fixed;
+  margin: 10px;
+  position: relative;
+  transition-duration: 1s;
+
+}
+
+#first-box h2 {
+ padding-top: 100px;
+}
+#second-box h2 {
+  padding-top: 100px;
+ }
+#third-box h2 {
+  padding-top: 100px;
+ }
+
+
+ /* ***FOOTER*** */
+
+ .footer-container {
+  background-color: #367cb9;
+
+ }
+
+ footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer ul li {
+  margin: 15px 0;
+  font-size: 0.9rem;
+}
+
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.row {
+  margin-top: 150px;
+  flex: 1;
+  display: flex;
+  height: 250px;  
+  padding: 50px 50px 0px 50px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #367cb9;
+  color: #fff;
+  word-spacing: 2px;
+ 
+}
+
+.col-5 {
+  height:200px;
+  width: 360px;
+  margin: 10px 10px 0px 10px;
+  /* position: relative; */
+}
+.col-4 {
+  height:200px;
+  width: 360px;
+  margin: 10px;
+  margin: 10px 10px 0px 10px;
+  
+  /* position: relative; */
+
+}
+.col-3 {
+  height:200px;
+  width: 360px;
+  margin: 10px 10px 0px 10px;
+  
+
+}
+
+
+.line hr{
+  width: 91%;
+  border: 0;
+  border-bottom: 2px solid #fff;
+  margin: 10px auto;
+  padding-bottom: 40px;
+
+}
+
+.line h5 {
+  color: #fff;
+  text-align: center;
+}
+.line {
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
