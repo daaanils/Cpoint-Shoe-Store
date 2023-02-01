@@ -335,7 +335,8 @@ nav a {
   height:250px;
   width: 360px;
   margin: 10px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),url('images/safety\ shoes.jpg');nd-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),url('images/safety/shoes.jpg');
+  background-position: center;
   background-size: cover;
   background-position: fixed;
   margin: 10px;
